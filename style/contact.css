@@ -1,0 +1,36 @@
+body{
+    background-image: url(/lib/bg\ img.jpg);
+    margin: 0;
+    height: 100dvh;
+}
+
+.container{
+height: 280px;
+width: 400px;
+margin: auto;
+/* background-color:rgb(236, 238, 240); */
+background-color: rgb(187, 178, 243);
+margin-top: 100px;
+ border-radius:5px; 
+} 
+
+.all{
+    padding-left: 50px;
+    padding-top:30px ;
+}
+
+.fa-envelope{
+padding: 10px 10px 10px 10px ;  
+}
+
+.fa-linkedin{
+padding: 10px 10px 10px 10px ;
+}
+
+.fa-phone{
+padding: 5px 5px 5px 5px ;
+background-color: rgb(50, 50, 206);
+color: aliceblue;
+border-radius: 20px;
+margin-right: 10px;
+}
