@@ -7,7 +7,7 @@ background-color: rgb(187, 178, 243);
 }
 .whol{
     margin-left:30px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
   
 }
