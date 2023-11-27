@@ -2,12 +2,13 @@ body{
     /* background-color: darkgrey; */
     background-image: url(/lib/bg\ img.jpg);
     margin: 0;
-    height: 100vn;
+    /* height: 100vn; */
+    height: fit-content;
 }
 .whole{
     background-color: rgb(187, 178, 243);
     margin: auto;
-    height: 560px;
+    height: 580px;
     width: 700px;
     /* border: solid black 2px; */
     align-items: center;
