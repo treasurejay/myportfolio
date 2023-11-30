@@ -2,13 +2,15 @@ body{
     /* background-color: darkgrey; */
     background-image: url(/lib/bg\ img.jpg);
     margin: 0;
+    height: 100vh;
+    width: 100vw;
     /* height: 100vn; */
 
 
 }
 .whole{
     background-color: rgb(187, 178, 243);
-    margin: auto;
+    /* margin: auto; */
     height: 600px;
     width: 700px;
     /* border: solid black 2px; */
@@ -47,8 +49,9 @@ body{
 .btn:hover{
     background-color: rgb(173, 163, 239);
    
-
 }
+
+
 
 
 .imgg:hover{
@@ -56,8 +59,8 @@ body{
  transform: translate(8px,-8px);
  opacity:0.9; 
 
-
 }
+
 
 .hm{
 /* background-color:brown; */
@@ -91,6 +94,56 @@ color: black;
 .pj:hover{
     color: black;
    
-   
-   
+}
+@media screen and (min-width:320px){
+    .imgg{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .img1{
+        width:320px
+
+    }
+    .img2{
+        width: 320px
+
+    }
+
+}
+@media screen and (min-width:768px){
+    .imgg{
+        display: flex;
+        flex-direction: row;
+      
+    }
+    .img1{
+        width:200px;
+        height:250px
+
+    }
+    .img2{
+        width:200px;
+        height:250px
+
+    }
+  
+}
+@media screen and (min-width:1024px){
+    .imgg{
+        display: flex;
+        flex-direction: row;
+      
+    }
+    .img1{
+        width:300px;
+        height:250px
+
+    }
+    .img2{
+        width:300px;
+        height:250px
+
+    }
+
 }
