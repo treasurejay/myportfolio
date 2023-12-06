@@ -1,6 +1,6 @@
 body{
     /* background-color: darkgrey; */
-    background-image: url(/lib/bg\ img.jpg);
+    /* background-image: url(/lib/bg\ img.jpg); */
     margin: 0;
     height: 100vh;
     width: 100vw;
@@ -10,9 +10,10 @@ body{
 }
 .whole{
     background-color: rgb(187, 178, 243);
-    /* margin: auto; */
+    margin: auto;
     height: 600px;
     width: 700px;
+    
     /* border: solid black 2px; */
     align-items: center;
     /* margin-top: 50px; */
